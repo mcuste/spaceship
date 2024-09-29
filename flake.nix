@@ -23,7 +23,7 @@
         config,
         ...
       }: let
-        name = "bevy-engine";
+        name = "Spaceship";
         version = "0.1.0";
       in {
         packages = {
