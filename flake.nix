@@ -58,10 +58,10 @@
               pkgs.vulkan-validation-layers
 
               # To use the x11 feature
-              # pkgs.xorg.libX11
-              # pkgs.xorg.libXcursor
-              # pkgs.xorg.libXi
-              # pkgs.xorg.libXrandr
+              pkgs.xorg.libX11
+              pkgs.xorg.libXcursor
+              pkgs.xorg.libXi
+              pkgs.xorg.libXrandr
 
               # To use the wayland feature
               pkgs.wayland
